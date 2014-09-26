@@ -1,4 +1,4 @@
-# ![Kira](logo.png)
+# ![Kira](https://raw.githubusercontent.com/chrisenytc/kira/master/logo.png)
 
 > A awesome DDoS tool for making attacks to any target
 
