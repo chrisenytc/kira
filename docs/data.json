@@ -1,0 +1,133 @@
+{
+    "project": {
+        "name": "Kira",
+        "description": "Kira: A awesome DDoS tool for making attacks to any target",
+        "version": "0.1.0",
+        "url": "https://github.com/chrisenytc/kira"
+    },
+    "files": {
+        "lib/kira.js": {
+            "name": "lib/kira.js",
+            "modules": {},
+            "classes": {
+                "Kira": 1
+            },
+            "fors": {},
+            "namespaces": {}
+        }
+    },
+    "modules": {},
+    "classes": {
+        "Kira": {
+            "name": "Kira",
+            "shortname": "Kira",
+            "classitems": [],
+            "plugins": [],
+            "extensions": [],
+            "plugin_for": [],
+            "extension_for": [],
+            "file": "lib/kira.js",
+            "line": 35,
+            "is_constructor": 1,
+            "example": [
+                "\n\n    var api = new Api();\n"
+            ]
+        }
+    },
+    "classitems": [
+        {
+            "file": "lib/kira.js",
+            "line": 52,
+            "description": "Method responsible for asking questions",
+            "example": [
+                "\n\n    api.prompt(prompts, cb);"
+            ],
+            "itemtype": "method",
+            "name": "prompt",
+            "access": "public",
+            "tagname": "",
+            "params": [
+                {
+                    "name": "prompts",
+                    "description": "Array of prompt options",
+                    "type": "Object"
+                },
+                {
+                    "name": "cb",
+                    "description": "A callback",
+                    "type": "Function"
+                }
+            ],
+            "class": "Kira"
+        },
+        {
+            "file": "lib/kira.js",
+            "line": 71,
+            "description": "Method responsible for send many requests to a target",
+            "example": [
+                "\n\n    api.kill('http://example.com', 200, 10000, 'https://54.234.95.169:80');"
+            ],
+            "itemtype": "method",
+            "name": "kill",
+            "access": "public",
+            "tagname": "",
+            "params": [
+                {
+                    "name": "url",
+                    "description": "Url of a target",
+                    "type": "String"
+                },
+                {
+                    "name": "maxLimit",
+                    "description": "Maximum Connections",
+                    "type": "Number"
+                },
+                {
+                    "name": "length",
+                    "description": "Content length",
+                    "type": "Number"
+                },
+                {
+                    "name": "enableProxy",
+                    "description": "Proxy address",
+                    "type": "String"
+                }
+            ],
+            "class": "Kira"
+        },
+        {
+            "file": "lib/kira.js",
+            "line": 196,
+            "description": "Method responsible for get random proxy address",
+            "example": [
+                "\n\n    api.getProxy();"
+            ],
+            "itemtype": "method",
+            "name": "getProxy",
+            "access": "public",
+            "tagname": "",
+            "params": [
+                {
+                    "name": "address",
+                    "description": "Proxy address",
+                    "type": "String"
+                }
+            ],
+            "class": "Kira"
+        },
+        {
+            "file": "lib/kira.js",
+            "line": 212,
+            "description": "Method responsible for get random referers",
+            "example": [
+                "\n\n    api.getReferer();"
+            ],
+            "itemtype": "method",
+            "name": "getReferer",
+            "access": "public",
+            "tagname": "",
+            "class": "Kira"
+        }
+    ],
+    "warnings": []
+}
