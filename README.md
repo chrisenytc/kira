@@ -1,6 +1,8 @@
-# Kira [![Build Status](https://secure.travis-ci.org/chrisenytc/kira.png?branch=master)](https://travis-ci.org/chrisenytc/kira) [![NPM version](https://badge-me.herokuapp.com/api/npm/kira.png)](http://badges.enytc.com/for/npm/kira)
+# ![Kira](logo.png)
 
 > A awesome DDoS tool for making attacks to any target
+
+[![Build Status](https://secure.travis-ci.org/chrisenytc/kira.png?branch=master)](https://travis-ci.org/chrisenytc/kira) [![NPM version](https://badge-me.herokuapp.com/api/npm/kira.png)](http://badges.enytc.com/for/npm/kira)
 
 ## Getting Started
 Install the module with: 
