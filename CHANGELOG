@@ -1,3 +1,7 @@
+v0.1.1:
+  date: 2015-7-25
+  changes:
+    - Fix random error.
 v0.1.0:
   date: 2014-9-26
   changes:

@@ -1,7 +1,7 @@
 {
     "name": "kira",
     "description": "A awesome DDoS tool for making attacks to any target",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "homepage": "https://github.com/chrisenytc/kira",
     "author": {
         "name": "Christopher EnyTC",

@@ -1,7 +1,7 @@
 {
     "name": "Kira",
     "description": "Kira: A awesome DDoS tool for making attacks to any target",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "url": "https://github.com/chrisenytc/kira",
     "options": {
         "outdir": "./docs",

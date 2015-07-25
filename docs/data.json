@@ -2,10 +2,17 @@
     "project": {
         "name": "Kira",
         "description": "Kira: A awesome DDoS tool for making attacks to any target",
-        "version": "0.1.0",
+        "version": "0.1.1",
         "url": "https://github.com/chrisenytc/kira"
     },
     "files": {
+        "bin/kira.js": {
+            "name": "bin/kira.js",
+            "modules": {},
+            "classes": {},
+            "fors": {},
+            "namespaces": {}
+        },
         "lib/kira.js": {
             "name": "lib/kira.js",
             "modules": {},
@@ -35,6 +42,12 @@
         }
     },
     "classitems": [
+        {
+            "file": "bin/kira.js",
+            "line": 11,
+            "description": "Module dependencies.",
+            "class": "Kira"
+        },
         {
             "file": "lib/kira.js",
             "line": 52,
@@ -129,5 +142,10 @@
             "class": "Kira"
         }
     ],
-    "warnings": []
+    "warnings": [
+        {
+            "message": "Missing item type\nModule dependencies.",
+            "line": " bin/kira.js:11"
+        }
+    ]
 }
